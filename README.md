@@ -38,10 +38,10 @@ Simulador para gerar posições no map (latitude e longitude).
 
 - Clone o projeto.
 - crie um arquivo .env na raiz do projeto com os valores que estão em .env.example
-- Entre na pasta do projeto e rode docker-compose up -d.
-- Entre no container com o comando "docker exec -it simulator bash". Quando entrar execute o comando "go run main.go". Esse terminal estará escutando as mensagens.
-- Entre no container com o comando "docker exec -it kafka_kafka_1 bash". Esse terminal será do producer (responsavel por enviar as mensagens), digite o comando  "kafka-console-producer --bootstrap-server=localhost:9092 --topic=route.new-direction". É aqui que enviaremos as mensagens.
-- Entre no container com o comando "docker exec -it kafka_kafka_1 bash". Esse terminal será do consumer (responsavel por preencher as mensagens), digite o comando  "kafka-console-consumer --bootstrap-server=localhost:9092 --topic=route.new-position --group=terminal".
+- Entre na pasta do projeto e rode `docker-compose up -d`.
+- Entre no container com o comando `docker exec -it simulator bash`. Quando entrar execute o comando `go run main.go`. Esse terminal estará escutando as mensagens.
+- Entre no container com o comando `docker exec -it kafka_kafka_1 bash`. Esse terminal será do producer (responsavel por enviar as mensagens), digite o comando  `kafka-console-producer --bootstrap-server=localhost:9092 --topic=route.new-direction`. É aqui que enviaremos as mensagens.
+- Entre no container com o comando `docker exec -it kafka_kafka_1 bash`. Esse terminal será do consumer (responsavel por preencher as mensagens), digite o comando  `kafka-console-consumer --bootstrap-server=localhost:9092 --topic=route.new-position --group=terminal`.
 
 
 
