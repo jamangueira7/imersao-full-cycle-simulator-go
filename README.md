@@ -45,7 +45,6 @@ Simulador para gerar posições no map (latitude e longitude).
 
 
 
-
 ## 🤔 Como contribuir
 
 - Faça um fork desse repositório;
