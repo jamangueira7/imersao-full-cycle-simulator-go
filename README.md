@@ -33,6 +33,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Simulador para gerar posições no map (latitude e longitude).
 
+[nest-api](https://github.com/jamangueira7/imersao-full-cycle-api-nestjs)
+[apache-kafka]()
 
 ## 🚀 Como Rodar
 
