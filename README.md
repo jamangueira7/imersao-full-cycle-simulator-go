@@ -36,6 +36,8 @@ Simulador para gerar posições no map (latitude e longitude).
 [nest-api](https://github.com/jamangueira7/imersao-full-cycle-api-nestjs)
 [apache-kafka](https://github.com/jamangueira7/imersao-full-cycle-apache-kafka)
 
+[frontend](https://github.com/jamangueira7/imersao-full-cycle-react-ts)
+
 ## 🚀 Como Rodar
 
 - Clone o projeto.
